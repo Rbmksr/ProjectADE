@@ -1,3 +1,4 @@
 # Temporäre Dateien ignorieren
 data/temp/
 data/csv_files/
+.git/objects/
