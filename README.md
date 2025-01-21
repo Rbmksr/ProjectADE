@@ -16,4 +16,5 @@ The download time for 2 files with Pandas is 7 minutes and 31 seconds.
 
 ### Download Time Results with Spark
 The download time for 2 files with Spark is 0 minutes and 0 seconds.
+The download time for 2 files with Spark is 6 minutes and 4 seconds.
 The download time for 2 files with Spark is 6 minutes and 41 seconds.
