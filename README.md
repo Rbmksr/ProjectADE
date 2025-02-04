@@ -1,6 +1,6 @@
 # Project Advanced Data Engineering
 
-# Outline
+### Outline
 This project compares the processing of maritime data using Apache Spark and Pandas. The data comes from the Automatic Identification System (AIS), which is used by ships worldwide to transmit position and navigation information. The goal is to assess the performance of both approaches in processing large datasets.
 
 ### Structure
@@ -21,3 +21,6 @@ Our Project usese Danish AIS Data (further explanations in the Notebook ADE_PRO_
 3. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
 4. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
 5. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
+
+### Order of Execution
+We recommend you to start with the notebook ADE_PRO_Spark, in order to get an overview of the use case and our thoughts while doing the project. After that you can use the notebook ADE_Pro to experience the difference in performence between the Spark version and the Pandas version and compare the code of the different implementations. You can use the notebooks Scalability and Fault Tolerance individually to watch the different tests we conducted.
