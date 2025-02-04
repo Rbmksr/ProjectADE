@@ -1,10 +1,7 @@
-Vergleich von Datenverarbeitung mit Spark und Pandas
-
-Projektbeschreibung
-
-Dieses Projekt vergleicht die Verarbeitung von Schifffahrtsdaten mithilfe von Apache Spark und Pandas. Die Daten stammen aus dem Automatic Identification System (AIS), das von Schiffen weltweit zur Übermittlung von Positions- und Navigationsdaten genutzt wird. Ziel ist es, die Leistungsfähigkeit beider Ansätze bei der Verarbeitung von großen Datensätzen zu bewerten.
-
 # Project Advanced Data Engineering
+
+# Outline
+This project compares the processing of maritime data using Apache Spark and Pandas. The data comes from the Automatic Identification System (AIS), which is used by ships worldwide to transmit position and navigation information. The goal is to assess the performance of both approaches in processing large datasets.
 
 ### Structure
 Our project consists of 4 different Notebooks.
@@ -24,30 +21,3 @@ Our Project usese Danish AIS Data (further explanations in the Notebook ADE_PRO_
 3. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
 4. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
 5. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
-
-
-### Ergebnisse der Download-Zeitmessung mit Spark
-Die Download-Zeit für 2 Dateien mit Spark beträgt 6 Minuten und 46 Sekunden.
-
-### Download Time Results with Pandas
-The download time for 5 files with Pandas is 1 minutes and 52 seconds.
-The download time for 5 files with Pandas is 1 minutes and 20 seconds.
-The download time for 4 files with Pandas is 1 minutes and 8 seconds.
-The download time for 4 files with Pandas is 1 minutes and 16 seconds.
-The download time for 3 files with Pandas is 0 minutes and 49 seconds.
-The download time for 2 files with Pandas is 0 minutes and 34 seconds.
-The download time for 1 files with Pandas is 0 minutes and 23 seconds.
-The download time for 2 files with Pandas is 0 minutes and 32 seconds.
-The download time for 2 files with Pandas is 1 minutes and 34 seconds.
-The download time for 2 files with Pandas is 6 minutes and 17 seconds.
-The download time for 2 files with Pandas is 7 minutes and 31 seconds.
-
-### Download Time Results with Spark
-The download time for 5 files with Spark is 0 minutes and 0 seconds.
-The download time for 4 files with Spark is 0 minutes and 0 seconds.
-The download time for 3 files with Spark is 0 minutes and 0 seconds.
-The download time for 2 files with Spark is 0 minutes and 0 seconds.
-The download time for 1 files with Spark is 0 minutes and 0 seconds.
-The download time for 5 files with Spark is 5 minutes and 49 seconds.
-The download time for 2 files with Spark is 6 minutes and 4 seconds.
-The download time for 2 files with Spark is 6 minutes and 41 seconds.
