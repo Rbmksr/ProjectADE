@@ -23,10 +23,10 @@ Automatic Download: Run the AIS_PRO_Spark notebook, which will automatically cre
 Manual Download: Download the data manually from the source. If you choose this option, you must update the local_storage_path variable in all four notebooks to reflect the location where you saved the files.
 The exact files used during testing can be found at the following links:
 1. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
-2. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
-3. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
-4. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
-5. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
+2. https://web.ais.dk/aisdata/aisdk-2024-03-02.zip
+3. https://web.ais.dk/aisdata/aisdk-2024-03-03.zip
+4. https://web.ais.dk/aisdata/aisdk-2024-03-04.zip
+5. https://web.ais.dk/aisdata/aisdk-2024-03-05.zip
 
 ### Order of Execution
 We recommend starting with the notebook ADE_PRO_Spark to gain an overview of the use case and our thought process throughout the project. After that, you can explore the ADE_Pro notebook to experience the performance differences between the Spark and Pandas versions and compare their implementations.
