@@ -26,6 +26,7 @@ How does the system behave under Node/CPU/Memory/Hardware/... errors and failure
 ---
 ### Node
 - two node, stop one -> application is still working
+  
 ![image](https://hackmd.io/_uploads/B1ETPsC_kl.png)
 ![image](https://hackmd.io/_uploads/B15DOj0dkx.png)
 ![image](https://hackmd.io/_uploads/SyvGcoROkx.png)
