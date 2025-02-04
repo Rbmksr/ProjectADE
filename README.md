@@ -6,16 +6,22 @@ This project compares the processing of maritime data using Apache Spark and Pan
 ### Structure
 Our project consists of 4 different Notebooks.
 1. ADE_PRO_Spark: 
-This Notebook contains the prototype of our use case using Apache Spark for the Implementation. This notebook also contains texts regarding our use case, the limitations of the prototype and our observations of the behaviour of both Spark and Pandas.
+This notebook presents the prototype of our use case, implemented using Apache Spark. It also includes discussions on the use case, the limitations of the prototype, and our observations regarding the behavior of both Spark and Pandas.
 2. ADE_Pro: 
-This Notebook contains the protopye of our use case using Pandas instead of Spark to handle the data. This Notebook contains only the Pandas Implementation.
+This notebook contains the prototype of our use case but implemented using Pandas instead of Spark for data handling. It focuses solely on the Pandas implementation.
 3. Scalability: 
-This Notebook contains tests and their documentation regarding topics such as different volumes of data and different hardware configurations.
+This notebook documents tests related to scalability, including the effects of varying data volumes and different hardware configurations.
 4. Fault Tolerance: 
-This Notebook contains tests seeking to answer questions regarding different topics of Sparks fault tolerance.
+This notebook contains tests designed to explore various aspects of Spark’s fault tolerance.
 
 ### Data
-Our Project usese Danish AIS Data (further explanations in the Notebook ADE_PRO_Spark). The source of the data is the following site: https://web.ais.dk/aisdata/. You can either manually Download the data we use or simply execute the notebook AIS_PRO_Spark. This will automatically create a folder and download the files we used during testing. If you choose the manual download you have to update a variable called local_storage_path in all 4 notebooks with the path where you saved the files. The links to the exact files we used during testing are:
+Our project uses Danish AIS data (further explained in the ADE_PRO_Spark notebook). The data source is available at: https://web.ais.dk/aisdata/.
+
+You can obtain the data in two ways:
+
+Automatic Download: Run the AIS_PRO_Spark notebook, which will automatically create a folder and download the files used during testing.
+Manual Download: Download the data manually from the source. If you choose this option, you must update the local_storage_path variable in all four notebooks to reflect the location where you saved the files.
+The exact files used during testing can be found at the following links:
 1. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
 2. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
 3. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
@@ -23,4 +29,6 @@ Our Project usese Danish AIS Data (further explanations in the Notebook ADE_PRO_
 5. https://web.ais.dk/aisdata/aisdk-2024-03-01.zip
 
 ### Order of Execution
-We recommend you to start with the notebook ADE_PRO_Spark, in order to get an overview of the use case and our thoughts while doing the project. After that you can use the notebook ADE_Pro to experience the difference in performence between the Spark version and the Pandas version and compare the code of the different implementations. You can use the notebooks Scalability and Fault Tolerance individually to watch the different tests we conducted.
+We recommend starting with the notebook ADE_PRO_Spark to gain an overview of the use case and our thought process throughout the project. After that, you can explore the ADE_Pro notebook to experience the performance differences between the Spark and Pandas versions and compare their implementations.
+
+Additionally, you can use the Scalability and Fault Tolerance notebooks independently to review the various tests we conducted.
