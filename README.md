@@ -32,3 +32,6 @@ The exact files used during testing can be found at the following links:
 We recommend starting with the notebook ADE_PRO_Spark to gain an overview of the use case and our thought process throughout the project. After that, you can explore the ADE_Pro notebook to experience the performance differences between the Spark and Pandas versions and compare their implementations.
 
 Additionally, you can use the Scalability and Fault Tolerance notebooks independently to review the various tests we conducted.
+
+### Download Time Results with Spark
+The download time for 5 files with Spark is 0 minutes and 0 seconds.
