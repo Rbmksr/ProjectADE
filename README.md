@@ -12,7 +12,7 @@ This notebook contains the prototype of our use case but implemented using Panda
 3. Scalability: 
 This notebook documents tests related to scalability, including the effects of varying data volumes and different hardware configurations.
 4. Fault Tolerance: 
-This notebook contains tests designed to explore various aspects of Spark’s fault tolerance.
+This notebook contains tests designed to explore various aspects of Spark’s fault tolerance. Additionaly there is a markdown file called Fault Tolerance, containing information about the fault tolerance when using spark in a cluster (standalone mode).
 
 ### Data
 Our project uses Danish AIS data (further explained in the ADE_PRO_Spark notebook). The data source is available at: https://web.ais.dk/aisdata/.
@@ -31,4 +31,4 @@ The exact files used during testing can be found at the following links:
 ### Order of Execution
 We recommend starting with the notebook ADE_PRO_Spark to gain an overview of the use case and our thought process throughout the project. After that, you can explore the ADE_Pro notebook to experience the performance differences between the Spark and Pandas versions and compare their implementations.
 
-Additionally, you can use the Scalability and Fault Tolerance notebooks independently to review the various tests we conducted.
+Additionally, you can use the Scalability and Fault Tolerance notebooks and the additional Fault Tolerance markdown file independently to review the various tests we conducted.
